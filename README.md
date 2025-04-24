@@ -1,9 +1,15 @@
-# To Do List App
+# Todo App
 
-Uma aplicação simples de lista de tarefas desenvolvida com **Django**, **Django REST Framework** e **AngularJS**.  
-> Baseado no tutorial de Max Goodridge (YouTube).
+Este é um projeto simples de gerenciamento de tarefas (Todo App) desenvolvido para aprática de conceitos das tecnologias nele implementadas.
 
-## Tecnologias utilizadas
+## Funcionalidades
+
+- Adicionar novas tarefas.
+- Marcar tarefas como concluídas.
+- Remover tarefas.
+- Listar todas as tarefas pendentes e concluídas.
+
+## Tecnologias Utilizadas
 
 - [Django](https://www.djangoproject.com/)
 - [Django REST Framework](https://www.django-rest-framework.org/)
@@ -11,56 +17,24 @@ Uma aplicação simples de lista de tarefas desenvolvida com **Django**, **Djang
 - HTML/CSS
 - SQLite
 
-## Como rodar o projeto localmente
+## Como Executar o Projeto
 
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/Rafael-Gnutzmann/Test_To_Do_List.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd todo-app
+    ```
+3. Instale as dependências:
+    ```bash
+    pip install -r requirements.txt
+    ```
+4. Execute o projeto:
+    ```bash
+    python3 manage.py runserver
+    ```
 
-## 1. Clone o repositório
-
-
-```bash
-git clone https://github.com/Rafael-Gnutzmann/Test_To_Do_List.git
-cd Test_To_Do_List
-
-
-## 2. Crie e ative um ambiente virtual:
-
-
-# Linux/Mac
-python -m venv venv
-source venv/bin/activate
-
-# Windows
-python -m venv venv
-venv\Scripts\activate
-
-
-I## 3. Instale as dependências do projeto:
-
-
-pip install -r base.txt
-
-
-## 4. Aplique as migrações e inicie o servidor:
-
-
-python manage.py migrate
-python manage.py runserver
-
-
-## 5. Acesse a aplicação no navegador:
-
-
-http://127.0.0.1:8000/
-
-
-Funcionalidades:
-*Adicionar novas tarefas
-
-*Listar tarefas existentes
-
-*Marcar tarefas como concluídas
-
-*Remover tarefas concluídas
-
-*Comunicação com backend via API REST
-
+- **Autor:** Rafael Gnutzmann
+- **GitHub:** [https://github.com/seu-usuario](https://github.com/seu-usuario)
